@@ -30,3 +30,7 @@ select Count(city) as TotalEmployee from AddressBook
 
 select Count(states) as TotalEmployee from AddressBook
 
+--UC8 
+
+select firstname from AddressBook where city='hyderabad' order by firstname ASC
+
